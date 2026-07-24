@@ -1,8 +1,26 @@
 aid: chrono24
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chrono24.png
 name: Chrono24
-description: 'Chrono24 is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Chrono24 is one of the world''s leading online marketplaces for luxury
+  and pre-owned watches, connecting tens of thousands of professional dealers and
+  private sellers with buyers across more than 100 countries. Founded in 2003 and
+  headquartered in Karlsruhe, Germany, the platform lists hundreds of thousands of
+  watches and offers buyer protection through its Trusted Checkout escrow service,
+  authentication, and integrated payment and shipping. Chrono24 operates as a consumer
+  web and mobile marketplace and does not publish a public developer API; this profile
+  is maintained in the API Evangelist network for company intelligence and demand
+  tracking. Backed by Insight Partners and General Atlantic.'
 url: https://raw.githubusercontent.com/api-evangelist/chrono24/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Marketplace
+- E-Commerce
+- Luxury Goods
+- Watches
+- Collectibles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/chrono24-domain-security.yml
 - type: Website
   url: http://www.chrono24.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
