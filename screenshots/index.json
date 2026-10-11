@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "chrono24",
+    "captured_at": "2026-10-11T183921",
+    "source_url": "http://www.chrono24.com/",
+    "source_type": "Website",
+    "file": "chrono24-2026-10-11T183921.png",
+    "bytes": 878361,
+    "capture": "playwright-local"
+  }
+]
